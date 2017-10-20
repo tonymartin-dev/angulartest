@@ -1,0 +1,27 @@
+<!-- Make a list with ng-repeat -->
+<div class="col-lg-6 col-sm-12">
+  <div class="col-sm-6">
+    <h3>My favourite Writers</h3>
+    <ul>
+      <li ng-repeat="writer in writers">{{writer}}</li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <h3>My favourite Singers</h3>
+    <ul>
+      <li ng-repeat="singer in singers">{{singer.name}}</li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <h3>People ages</h3>
+    <ul>
+      <li ng-repeat="(name, age) in people">{{name}} is {{age}} years old<li>
+      </ul>
+  </div>
+  <div class="col-sm-6">
+    <h3>My Friends</h3>
+    <ul>
+      <li ng-repeat="friend in friends"> {{friend.name}} </li>
+    </ul>
+  </div>
+</div>

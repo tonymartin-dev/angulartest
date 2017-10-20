@@ -1,0 +1,11 @@
+body {
+  padding: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.borders {
+  border: solid 1px;
+}
