@@ -22,5 +22,13 @@ myApp.config(function($routeProvider){
     controller : 'myController',
     templateUrl : 'views/mydirectives.html'
   })
+  .when('/maps/basicmap' , {
+    controller : 'basicmapCtrl',
+    templateUrl : 'views/basicmap.html'
+  })
+  .when('/maps/stamenmap' , {
+    controller : 'basicmapstamenmapCtrl',
+    templateUrl : 'views/stamenmap.html'
+  })
    .otherwise({redirectTo:'/'});
 });
