@@ -22,6 +22,10 @@ myApp.config(function($routeProvider){
     controller : 'myController',
     templateUrl : 'views/mydirectives.html'
   })
+  .when('/periodic' , {
+    controller : 'periodicCtrl',
+    templateUrl : 'views/periodic.html'
+  })
   .when('/maps/basicmap' , {
     controller : 'basicmapCtrl',
     templateUrl : 'views/basicmap.html'

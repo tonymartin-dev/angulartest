@@ -11,5 +11,15 @@ body {
 }
 
 .periodic-cell {
-
+  display: inline-block;
+  width: 5.5555556%;
+}
+.periodic-cell input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.inside-cell {
+  padding: 15px;
+  /*background-color: rgba(0, 0, 0, 0.5); */
 }
